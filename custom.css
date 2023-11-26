@@ -1,0 +1,128 @@
+html,body{
+    height: 100%;
+
+}
+
+body{
+    flex-direction: column;
+    background-color: #E1EDBD;
+}
+
+
+#navbarNav a:hover{
+    color: #5A8559;
+    border-bottom: 2px solid #5A8559;
+}
+
+#navbarNav a:hover::after{
+    content:'';
+    height: 2px;
+    width: 100%;
+    transition: all 0.2s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#navbarNav {
+    opacity: 1;
+}
+
+.navbar-expand-lg 
+.navbar-toggler {
+    border-color: #0e300a;
+}
+
+.navbar-toggler:hover{
+    color: #0e300a;
+}
+
+main{
+    flex: 1 0 auto;
+    font-family: serif;
+    background: no-repeat;
+}
+
+h1{
+    display: inline-block;
+    border-bottom: 3px solid #719A5E;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    margin-bottom: 18px;
+    font-family: sans-serif;
+
+}
+
+   
+h2{
+    font-weight: bolder;
+    color: black;
+    font-family: "Canva Sans", "Open Sans", sans-serif;
+    letter-spacing: 3px;
+} 
+
+h2 span{
+    font-stretch: condensed;
+    color: black;
+    font-size: 7vw;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 b{
+    opacity: .5;
+}
+
+h4{
+    font-family:serif;
+}
+
+h5{
+    font-size: 1.7vm;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+header{
+    background: no-repeat center center;
+    background-size: color;
+    color: white;
+}
+
+.color-overlay{
+    background-color: rgba(0,0,0,0);
+    min-height: 60vh;
+}
+
+@media (max-width: 768px){
+    .color-overlay{
+        min-height: 60vh;
+    }
+}
+.form-label{
+    font-family: sans-serif;
+}
+
+.singleCol{
+    max-width: 750px;
+}
+
+.btn-primary{
+    font-family: sans-serif;
+    border-color: black;
+    background-color: #0e300a;
+}
+.btn-primary:hover{
+    border-color: black;
+    background-color: #5A8559;
+}
+
+footer{
+    background-color: #719A5E;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color:  #317729;
+}
